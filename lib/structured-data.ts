@@ -4,9 +4,9 @@ export function generateLocalBusinessSchema() {
     "@type": "BeautySalon",
     "name": "Sasvi Creations",
     "description": "Professional bridal and party makeup services in Coimbatore",
-    "url": "https://your-domain.com", // Replace with your actual domain
-    "logo": "https://your-domain.com/images/sasvi-logo.png", // Replace with your actual domain
-    "image": "https://your-domain.com/images/hero.png", // Replace with your actual domain
+    "url": "http://sasvicreation.com",
+    "logo": "http://sasvicreation.com/images/sasvi-logo.png",
+    "image": "http://sasvicreation.com/images/hero.png",
     "telephone": "+91-7708032077",
     "address": {
       "@type": "PostalAddress",
@@ -75,12 +75,12 @@ export function generateWebsiteSchema() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Sasvi Creations",
-    "url": "https://your-domain.com", // Replace with your actual domain
+    "url": "http://sasvicreation.com",
     "potentialAction": {
       "@type": "SearchAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://your-domain.com/search?q={search_term_string}" // Replace with your actual domain
+        "urlTemplate": "http://sasvicreation.com/search?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
     }

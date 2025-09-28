@@ -15,7 +15,7 @@ export const metadata = {
   description: "Professional bridal makeup artist in Coimbatore offering luxury wedding makeup, party makeup, and destination wedding services. 5+ years experience with premium products.",
   keywords: "bridal makeup artist coimbatore, wedding makeup coimbatore, kovaipudur makeup artist, destination wedding makeup, party makeup artist, professional makeup services",
   alternates: {
-    canonical: 'https://your-domain.com', // Replace with your actual domain
+    canonical: 'http://sasvicreation.com',
   },
 }
 

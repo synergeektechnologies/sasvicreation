@@ -53,7 +53,7 @@ export const metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://your-domain.com', // Replace with your actual domain
+    url: 'http://sasvicreation.com',
     title: 'Sasvi Creations - Best Bridal Makeup Artist in Coimbatore',
     description: 'Professional bridal and party makeup services by Sasvi Creations. Enhance your natural beauty with luxury makeup for weddings, parties, and commercial shoots in Coimbatore.',
     siteName: 'Sasvi Creations',
