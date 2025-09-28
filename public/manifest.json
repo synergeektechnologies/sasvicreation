@@ -1,0 +1,79 @@
+{
+  "name": "Sasvi Creations - Professional Makeup Artist",
+  "short_name": "Sasvi Creations",
+  "description": "Professional bridal and party makeup services in Coimbatore",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#8B5A2B",
+  "orientation": "portrait-primary",
+  "categories": ["beauty", "lifestyle", "business"],
+  "lang": "en-IN",
+  "dir": "ltr",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/images/sasvi-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/sasvi-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/sasvi-logo.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/hero.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "label": "Sasvi Creations Homepage"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Book Bridal Makeup",
+      "short_name": "Book Bridal",
+      "description": "Book bridal makeup services",
+      "url": "/services/bridal",
+      "icons": [
+        {
+          "src": "/bridal-makeup-and-hairstyle-elegant-natural.jpg",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Book Party Makeup",
+      "short_name": "Book Party",
+      "description": "Book party makeup services",
+      "url": "/services/party",
+      "icons": [
+        {
+          "src": "/party-makeup-glamorous-evening-look.jpg",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Get in touch with Sasvi Creations",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/images/sasvi-logo.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

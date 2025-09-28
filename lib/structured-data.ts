@@ -86,3 +86,47 @@ export function generateWebsiteSchema() {
     }
   }
 }
+
+export function generateBreadcrumbSchema(items: Array<{name: string, url: string}>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": items.map((item, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": item.name,
+      "item": item.url
+    }))
+  }
+}
+
+export function generatePersonSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sasvi",
+    "jobTitle": "Professional Makeup Artist",
+    "description": "Expert bridal and party makeup artist with 5+ years of experience in Coimbatore",
+    "url": "http://sasvicreation.com/about",
+    "image": "http://sasvicreation.com/images/sasvi-portrait.jpg",
+    "telephone": "+91-7708032077",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Coimbatore",
+      "addressRegion": "Tamil Nadu",
+      "addressCountry": "IN"
+    },
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Sasvi Creations"
+    },
+    "hasOccupation": {
+      "@type": "Occupation",
+      "name": "Makeup Artist",
+      "occupationLocation": {
+        "@type": "City",
+        "name": "Coimbatore"
+      }
+    }
+  }
+}

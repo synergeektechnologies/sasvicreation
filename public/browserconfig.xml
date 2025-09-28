@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square70x70logo src="/images/sasvi-logo.png"/>
+            <square150x150logo src="/images/sasvi-logo.png"/>
+            <wide310x150logo src="/images/hero.png"/>
+            <square310x310logo src="/images/sasvi-logo.png"/>
+            <TileColor>#8B5A2B</TileColor>
+        </tile>
+        <badge>
+            <polling-uri src="/notifications/messageuri.xml"/>
+            <frequency>30</frequency>
+        </badge>
+        <notification>
+            <polling-uri src="/notifications/notification1.xml"/>
+            <polling-uri2 src="/notifications/notification2.xml"/>
+            <polling-uri3 src="/notifications/notification3.xml"/>
+            <polling-uri4 src="/notifications/notification4.xml"/>
+            <polling-uri5 src="/notifications/notification5.xml"/>
+            <frequency>30</frequency>
+            <cycle>1</cycle>
+        </notification>
+    </msapplication>
+</browserconfig>
