@@ -1,0 +1,221 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* White, Gold, and Brown Color Palette */
+  --background: oklch(1 0 0); /* Pure white */
+  --foreground: oklch(0.25 0.04 50); /* Rich dark brown */
+  --card: oklch(1 0 0); /* Pure white */
+  --card-foreground: oklch(0.25 0.04 50); /* Rich dark brown */
+  --popover: oklch(1 0 0); /* Pure white */
+  --popover-foreground: oklch(0.25 0.04 50); /* Rich dark brown */
+  --primary: oklch(0.65 0.12 75); /* Luxurious gold */
+  --primary-foreground: oklch(0.15 0.03 45); /* Deep brown for contrast */
+  --secondary: oklch(0.35 0.05 45); /* Rich chocolate brown */
+  --secondary-foreground: oklch(1 0 0); /* Pure white */
+  --muted: oklch(1 0 0); /* Pure white */
+  --muted-foreground: oklch(0.45 0.03 55); /* Medium brown */
+  --accent: oklch(0.75 0.15 85); /* Bright gold accent */
+  --accent-foreground: oklch(0.15 0.03 45); /* Deep brown */
+  --destructive: oklch(0.55 0.15 25); /* Reddish brown */
+  --destructive-foreground: oklch(0.98 0.005 70); /* White */
+  --border: oklch(0.85 0 0); /* Light gray border */
+  --input: oklch(1 0 0); /* Pure white input */
+  --ring: oklch(0.75 0.15 85); /* Gold focus ring */
+  --chart-1: oklch(0.75 0.15 85); /* Gold */
+  --chart-2: oklch(0.35 0.05 45); /* Brown */
+  --chart-3: oklch(0.65 0.12 75); /* Medium gold */
+  --chart-4: oklch(0.45 0.03 55); /* Medium brown */
+  --chart-5: oklch(0.90 0.05 80); /* Light gold */
+  --radius: 0.625rem;
+  --sidebar: oklch(1 0 0); /* Pure white sidebar */
+  --sidebar-foreground: oklch(0.25 0.04 50); /* Rich dark brown */
+  --sidebar-primary: oklch(0.65 0.12 75); /* Gold */
+  --sidebar-primary-foreground: oklch(0.15 0.03 45); /* Deep brown */
+  --sidebar-accent: oklch(0.35 0.05 45); /* Rich brown */
+  --sidebar-accent-foreground: oklch(1 0 0); /* Pure white */
+  --sidebar-border: oklch(0.85 0.02 70); /* Light gold-brown border */
+  --sidebar-ring: oklch(0.75 0.15 85); /* Gold focus ring */
+}
+
+@theme inline {
+  --font-playfair: var(--font-playfair-display);
+  --font-montserrat: var(--font-montserrat);
+  --font-lora: var(--font-lora);
+
+  /* White, Gold, and Brown Color Palette */
+  --color-white: #ffffff; /* Pure white */
+  --color-off-white: #faf9f7; /* Soft off-white */
+  --color-gold: #d4af37; /* Classic gold */
+  --color-gold-light: #f4e4a7; /* Light champagne gold */
+  --color-gold-dark: #b8941f; /* Deep gold */
+  --color-brown-light: #8d6e63; /* Light chocolate */
+  --color-brown-medium: #5d4037; /* Medium chocolate */
+  --color-brown-dark: #3e2723; /* Dark chocolate */
+  --color-cream-gold: #fdf6e3; /* Cream with gold undertone */
+
+  /* Design Tokens */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+/* Custom utility classes */
+.font-heading {
+  font-family: var(--font-playfair);
+  font-weight: 700;
+}
+
+.font-body {
+  font-family: var(--font-montserrat);
+}
+
+.font-accent {
+  font-family: var(--font-lora);
+  font-style: italic;
+}
+
+.gradient-hero {
+  background: linear-gradient(135deg, var(--color-white) 0%, var(--color-cream-gold) 30%, var(--color-gold-light) 70%, var(--color-gold) 100%);
+}
+
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Smooth animations */
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+/* Hover effects */
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2); /* Gold shadow */
+}
+
+/* White, Gold, Brown themed utility classes */
+.bg-luxury-white {
+  background-color: var(--color-white);
+}
+
+.bg-luxury-gold {
+  background-color: var(--color-gold);
+}
+
+.bg-luxury-brown {
+  background-color: var(--color-brown-dark);
+}
+
+.text-luxury-gold {
+  color: var(--color-gold);
+}
+
+.text-luxury-brown {
+  color: var(--color-brown-dark);
+}
+
+.border-luxury-gold {
+  border-color: var(--color-gold);
+}
+
+.gradient-gold-white {
+  background: linear-gradient(135deg, var(--color-white) 0%, var(--color-gold-light) 100%);
+}
+
+/* Gold shimmer effect */
+.gold-shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--color-gold) 0%,
+    var(--color-gold-light) 50%,
+    var(--color-gold) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Luxury button styles */
+.btn-luxury-gold {
+  background: linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-dark) 100%);
+  color: var(--color-brown-dark);
+  border: 1px solid var(--color-gold-dark);
+  transition: all 0.3s ease;
+}
+
+.btn-luxury-gold:hover {
+  background: linear-gradient(135deg, var(--color-gold-light) 0%, var(--color-gold) 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.3);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-off-white);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold-dark);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
