@@ -23,7 +23,7 @@ const lora = Lora({
 })
 
 export const metadata = {
-  metadataBase: new URL('http://sasvicreation.com'),
+  metadataBase: new URL('https://sasvicreation.com'),
   title: {
     default: "Sasvi Creations - Best Bridal Makeup Artist | Professional Makeup Services",
     template: "%s | Sasvi Creations"
@@ -31,7 +31,7 @@ export const metadata = {
   description:
     "Professional bridal and party makeup services by Sasvi Creations. Enhance your natural beauty with luxury makeup for weddings, parties, and commercial shoots in Coimbatore.",
   keywords: "bridal makeup artist coimbatore, wedding makeup artist, party makeup, professional makeup services, luxury bridal makeover, destination wedding makeup, kovaipudur makeup artist",
-  authors: [{ name: "Sasvi Creations", url: "http://sasvicreation.com" }],
+  authors: [{ name: "Sasvi Creations", url: "https://sasvicreation.com" }],
   creator: "Sasvi Creations",
   publisher: "Sasvi Creations",
   applicationName: "Sasvi Creations",
@@ -62,7 +62,7 @@ export const metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'http://sasvicreation.com',
+    url: 'https://sasvicreation.com',
     title: 'Sasvi Creations - Best Bridal Makeup Artist in Coimbatore',
     description: 'Professional bridal and party makeup services by Sasvi Creations. Enhance your natural beauty with luxury makeup for weddings, parties, and commercial shoots in Coimbatore.',
     siteName: 'Sasvi Creations',
@@ -187,6 +187,7 @@ export default function RootLayout({
         <link rel="apple-touch-icon" sizes="180x180" href="/images/sasvi-logo.png" />
         <link rel="mask-icon" href="/images/sasvi-logo.svg" color="#8B5A2B" />
         <link rel="manifest" href="/manifest.json" />
+        <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />

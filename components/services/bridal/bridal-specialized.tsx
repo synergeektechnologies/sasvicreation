@@ -5,7 +5,7 @@ const specializations = [
     title: "Best Wedding Makeup Artist",
     description:
       "Specializing in simple, elegant looks that enhance your natural beauty. Our wedding makeup is designed to photograph beautifully and last throughout your entire celebration.",
-    image: "/bridal-makeup-and-hairstyle-elegant-natural.jpg",
+    image: "/bridal-makeup-1.jpg",
   },
   {
     title: "South Indian Bridal",

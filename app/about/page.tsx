@@ -13,16 +13,16 @@ export const metadata = {
   keywords:
     "about makeup artist, professional makeup artist bio, wedding makeup artist experience, bridal makeup artist story, sasvi makeup artist coimbatore, kovaipudur makeup artist background, professional beauty artist",
   alternates: {
-    canonical: 'http://sasvicreation.com/about',
+    canonical: 'https://sasvicreation.com/about',
   },
   openGraph: {
     title: "About Sasvi | Professional Makeup Artist",
     description: "Meet Sasvi - a professional makeup artist with 5+ years of experience in Coimbatore. Discover our philosophy of enhancing natural beauty with confidence.",
-    url: 'http://sasvicreation.com/about',
+    url: 'https://sasvicreation.com/about',
     type: 'profile',
     images: [
       {
-        url: '/professional-makeup-artist-portrait-natural-lighti.jpg',
+        url: '/artist-portrait-1.jpg',
         width: 1200,
         height: 630,
         alt: 'Sasvi - Professional Makeup Artist',
@@ -33,7 +33,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: "About Sasvi | Professional Makeup Artist",
     description: "Meet Sasvi - professional makeup artist with 5+ years experience in Coimbatore.",
-    images: ['/professional-makeup-artist-portrait-natural-lighti.jpg'],
+    images: ['/artist-portrait-1.jpg'],
   },
 }
 

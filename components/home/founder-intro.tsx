@@ -53,7 +53,7 @@ export default function FounderIntro() {
               <div className="relative">
                 <div className="aspect-square rounded-2xl overflow-hidden bg-muted">
                   <Image
-                    src="/professional-makeup-artist-portrait-natural-lighti.jpg"
+                    src="/artist-portrait-1.jpg"
                     alt="Professional Makeup Artist Portrait"
                     width={500}
                     height={500}

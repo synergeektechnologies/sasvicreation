@@ -54,7 +54,7 @@ export default function OccasionSection() {
                 </div>
                 <div className="aspect-[3/4] rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="/party-makeup-glamorous-evening-look.jpg"
+                    src="/party-makeup-1.jpg"
                     alt="Party Makeup Look"
                     width={300}
                     height={400}

@@ -4,9 +4,9 @@ export function generateLocalBusinessSchema() {
     "@type": "BeautySalon",
     "name": "Sasvi Creations",
     "description": "Professional bridal and party makeup services in Coimbatore",
-    "url": "http://sasvicreation.com",
-    "logo": "http://sasvicreation.com/images/sasvi-logo.png",
-    "image": "http://sasvicreation.com/images/hero.png",
+    "url": "https://sasvicreation.com",
+    "logo": "https://sasvicreation.com/images/sasvi-logo.png",
+    "image": "https://sasvicreation.com/images/hero.png",
     "telephone": "+91-7708032077",
     "address": {
       "@type": "PostalAddress",
@@ -75,7 +75,7 @@ export function generateWebsiteSchema() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Sasvi Creations",
-    "url": "http://sasvicreation.com",
+    "url": "https://sasvicreation.com",
     "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -107,8 +107,8 @@ export function generatePersonSchema() {
     "name": "Sasvi",
     "jobTitle": "Professional Makeup Artist",
     "description": "Expert bridal and party makeup artist with 5+ years of experience in Coimbatore",
-    "url": "http://sasvicreation.com/about",
-    "image": "http://sasvicreation.com/images/sasvi-portrait.jpg",
+    "url": "https://sasvicreation.com/about",
+    "image": "https://sasvicreation.com/images/sasvi-portrait.jpg",
     "telephone": "+91-7708032077",
     "address": {
       "@type": "PostalAddress",

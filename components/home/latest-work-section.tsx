@@ -29,7 +29,7 @@ const portfolioImages = [
     caption: "Bridesmaid Coordination",
   },
   {
-    src: "/commercial-shoot-makeup-professional-camera-ready.jpg",
+    src: "/commercial-shoot-1.jpg",
     alt: "Commercial Shoot Makeup",
     caption: "Commercial Shoot Ready",
   },
