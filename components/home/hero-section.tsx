@@ -16,8 +16,6 @@ export default function HeroSection() {
         />
       </div>
 
-
-
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto space-y-8">
           {/* Main Heading */}

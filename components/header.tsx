@@ -8,7 +8,6 @@ import { useState } from "react"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [isServicesOpen, setIsServicesOpen] = useState(false)
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
@@ -35,32 +34,26 @@ export default function Header() {
               Home
             </Link>
 
-            <div
-              className="relative"
-              onMouseEnter={() => setIsServicesOpen(true)}
-              onMouseLeave={() => setIsServicesOpen(false)}
-            >
+            <div className="relative group">
               <button className="flex items-center space-x-1 font-body text-foreground hover:text-primary transition-colors">
                 <span>Services</span>
                 <ChevronDown className="w-4 h-4" />
               </button>
 
-              {isServicesOpen && (
-                <div className="absolute top-full left-0 mt-2 w-56 bg-card rounded-lg shadow-lg border border-border py-2">
-                  <Link
-                    href="/services/bridal"
-                    className="block px-4 py-2 font-body text-foreground hover:bg-muted hover:text-primary transition-colors"
-                  >
-                    Bridal Packages
-                  </Link>
-                  <Link
-                    href="/services/party"
-                    className="block px-4 py-2 font-body text-foreground hover:bg-muted hover:text-primary transition-colors"
-                  >
-                    Party Makeup
-                  </Link>
-                </div>
-              )}
+              <div className="absolute top-full left-0 mt-2 w-56 bg-card rounded-lg shadow-lg border border-border py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+                <Link
+                  href="/services/bridal"
+                  className="block px-4 py-2 font-body text-foreground hover:bg-muted hover:text-primary transition-colors"
+                >
+                  Bridal Packages
+                </Link>
+                <Link
+                  href="/services/party"
+                  className="block px-4 py-2 font-body text-foreground hover:bg-muted hover:text-primary transition-colors"
+                >
+                  Party Makeup
+                </Link>
+              </div>
             </div>
 
             <Link href="/about" className="font-body text-foreground hover:text-primary transition-colors">

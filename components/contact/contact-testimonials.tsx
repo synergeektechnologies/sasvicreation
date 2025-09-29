@@ -100,7 +100,7 @@ export function ContactTestimonials() {
 
                 <div className="flex justify-center mb-4">
                   {[...Array(testimonials[currentIndex].rating)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-ochre text-ochre" />
+                    <Star key={i} className="w-5 h-5 fill-amber-300 text-ochre" />
                   ))}
                 </div>
 
