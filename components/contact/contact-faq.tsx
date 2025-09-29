@@ -90,7 +90,7 @@ export function ContactFAQ() {
             <div className="flex justify-center">
               <a
                 href="tel:+917708032077"
-                className="bg-sage text-white px-6 py-3 rounded-lg font-medium hover:bg-sage/90 transition-colors"
+                className=" text-black px-6 py-3 rounded-lg font-medium"
               >
                 Call Us: +91-7708032077
               </a>

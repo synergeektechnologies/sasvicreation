@@ -31,6 +31,7 @@ export default function HomePage() {
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+        <link rel="icon" href="/images/sasvi-logo.png" />
 
         {/* Canonical & Language alternates */}
         <link rel="canonical" href="http://sasvicreation.com" />

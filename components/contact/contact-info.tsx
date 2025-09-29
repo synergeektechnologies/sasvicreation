@@ -95,7 +95,7 @@ export function ContactInfo() {
                 <p className="text-sm text-muted-foreground mb-3">
                   For fastest response, message us on Instagram or WhatsApp
                 </p>
-                <a href="https://wa.me/917708032077" className="text-ochre font-medium text-sm hover:underline">
+                <a href="https://wa.me/917708032077" className="text-black font-medium text-sm hover:underline">
                   WhatsApp: +91-7708032077
                 </a>
               </div>
