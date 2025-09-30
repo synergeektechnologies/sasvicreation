@@ -9,6 +9,7 @@ import LatestWorkSection from "@/components/home/latest-work-section"
 import OccasionSection from "@/components/home/occasion-section"
 import ServicesSection from "@/components/home/services-section"
 import TestimonialsSection from "@/components/home/testimonials-section"
+
 export const metadata = {
   title: "Best Bridal Makeup Artist in Coimbatore | Sasvi Creations",
   description:
